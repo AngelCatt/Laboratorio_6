@@ -1,0 +1,48 @@
+body {
+    font-family: "Lato", sans-serif;
+    background-color: #fcf2e3;
+  }
+  
+  .nav {
+    height: 100%;
+    background-color: #150e09;
+    padding-top: 60px;
+    padding-right: 40px;
+    position: fixed;
+    transition: 0.5s;
+    justify-content: space-between;
+  }
+  
+  .nav a {
+    padding: 18px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #87857c;
+    display: block;
+    transition: 0.3s;
+    font-size: 20px;
+  }
+
+  h4 {
+    color: #fdd179;
+    text-align: center;
+  }
+
+  h1 {
+    margin-top: 20px;
+    color: #3d3333;
+  }
+
+  footer {
+    color: #7a5859;
+    font-size: 15px;
+    margin: 0px 0px 20px 20px; 
+  }
+
+  .active,.nav a:hover {
+    color: #fcf2e3 !important;
+  }
+  .seleccionado {
+    background-color: #fdd179 !important;
+    color: #fcf2e3 !important;
+  }
