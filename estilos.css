@@ -46,3 +46,14 @@ body {
     background-color: #fdd179 !important;
     color: #fcf2e3 !important;
   }
+
+  img, p {
+    margin: auto;
+    font-size: 300px;
+    width: 500px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
